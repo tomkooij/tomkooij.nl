@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-THEME = 'pelican-svbhack'
+THEME = 'monospace'
 
 AUTHOR = 'Tom Kooij'
 SITENAME = 'Tom Kooij'
