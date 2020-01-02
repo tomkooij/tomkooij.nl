@@ -2,7 +2,27 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-THEME = 'monospace'
+OUTPUT_PATH = '../tomkooij.github.io'
+
+THEME = 'theme'  # pelican-bootstrap3 mod
+BOOTSTRAP_THEME = 'flatly'
+BOOTSTRAP_NAVBAR_INVERSE = True
+BANNER = 'images/banner.jpg'
+BANNER_SUBTITLE = 'Modelleersoftware enzo'
+
+HIDE_SIDEBAR = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
+PYGMENTS_STYLE = 'monokai'
+
+STATIC_PATHS = ['../CNAME']
+EXTRA_PATH_METADATA = {'../CNAME': {'path': 'CNAME'}}
+
+PLUGIN_PATHS = ['plugins/', ]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 AUTHOR = 'Tom Kooij'
 SITENAME = 'Tom Kooij'
@@ -33,4 +53,10 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
+ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+TAG_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
