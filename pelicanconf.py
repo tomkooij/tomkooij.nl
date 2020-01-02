@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-OUTPUT_PATH = '../tomkooij.github.io'
+OUTPUT_PATH = 'output'
 
 THEME = 'theme'  # pelican-bootstrap3 mod
 BOOTSTRAP_THEME = 'flatly'
@@ -15,7 +15,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 PYGMENTS_STYLE = 'monokai'
 
-STATIC_PATHS = ['../CNAME']
+STATIC_PATHS = ['../CNAME', 'images']
 EXTRA_PATH_METADATA = {'../CNAME': {'path': 'CNAME'}}
 
 PLUGIN_PATHS = ['plugins/', ]
