@@ -18,7 +18,7 @@ Uitgangspunt is dat modelleren moet gaan over het maken en gebruiken van modelle
 
 Omdat de software inmiddels door veel collega's en leerlingen gebruikt wordt, probeer ik de software betrouwbaar online te houden. Garantie tot de deur! Nieuwe *features* test ik eerst op een andere plek:
 
-[Klik hier voor de ontwikkel (beta) versie van de web-app](https://www.tomkooij.nl/modelleertaal/)
+[Klik hier voor de ontwikkel (beta) versie van de web-app](https://www.tomkooij.nl/modelleertaal-dev/)
 
 ### Contact
 
